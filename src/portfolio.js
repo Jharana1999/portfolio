@@ -23,9 +23,9 @@ const greeting = {
   username: "Jharana Sapkota",
   title: "Hi all, I'm Jharana",
   subTitle:
-    "A passionate Data Analyst & Software Engineer with experience in applying Machine Learning & Data Analytics to extract insights, and building Web & Mobile applications.With expertise in both, I bridge the gap between data-driven decision-making and scalable engineering solutions",
+  "A passionate Software Engineer & Data Science Enthusiast with experience in building scalable Web & Mobile applications, and applying Machine Learning & Data Analytics to extract insights. With expertise in both, I bridge the gap between engineering efficiency and data-driven decision-making.",
   resumeLink:
-    "https://drive.google.com/file/d/19TqLt4f_tYgcNmqP0yJApwxQyxTMJNmY/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/16kLvzpKBeCim95sLcinydyhJ1Ks0cfKQ/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,10 +48,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Data-Driven Full Stack Developer & Analyst Exploring Cutting-Edge Tech Stacks",
   skills: [
-    emoji(
-      "⚡ Data Analytics & Machine Learning – Applying ML models to uncover patterns, make data-driven predictions, and enhance decision-making. "
-    ),
     emoji("⚡ Full Stack Development – Building interactive, high-performance web & mobile applications."),
+    emoji(
+      "⚡ Data Science & Machine Learning – Applying ML models to uncover patterns, make data-driven predictions, and enhance decision-making. "
+    ),
     emoji(
       "⚡ Cloud & Third-Party Integrations – Deploying solutions with AWS, Firebase."
     )
@@ -66,20 +66,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "sql",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     },
     {
       skillName: "java",
@@ -93,6 +81,26 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "sql",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "tableau",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
+      skillName: "Apache Spark",
+      fontAwesomeClassname: "fas fa-bolt"
+    }
 
 
 
@@ -113,7 +121,7 @@ const educationInfo = {
       desc: "Graduate Research Assistant",
       descBullets: [
         "Thesis: Categorizing and Comparing Student's interactions in eTextbook",
-        "Major Coursework: Big Data Engineering, Information Visualization, Machine Learning, Software Engineering"
+        "Major Coursework: Software Engineering, Machine Learning, Big Data Engineering, Information Visualization"
         
       ],
     },
@@ -125,7 +133,7 @@ const educationInfo = {
       desc: "Dean's List and University Topper",
       descBullets: [
       "Capstone: Ikuzo- The Ride Sharing Application",
-      "Major Coursework: Data Structures and Algorithms, Data Analysis and Modeling, Statistics, Advanced Java, Operating Systems"
+      "Major Coursework: Data Structures and Algorithms, Advanced Java, Operating Systems, Data Analysis and Modeling, Statistics"
       
     ]
     }
@@ -159,25 +167,24 @@ const workExperiences = {
   display: true, // Set it to true to show the Work Experience section
   experience: [
     {
-      role: "ML Researcher / Graduate Research Assistant",
+      role: "ML Researcher / GRA",
       company: "Virginia Tech",
       companylogo: require("./assets/images/vtl.png"), // Replace with the correct Virginia Tech logo
       date: "Dec 2024 – Present",
-      desc: "Conducting research on time-series forecasting for environmental monitoring, developing ML models for air pollution prediction and energy optimization.",
+      desc: "Conducting research on time-series forecasting for environmental monitoring, developing ML models for air pollution prediction and energy optimization, advised by Dr.Zhang Ruichuan.",
       descBullets: [
         "Developed a machine learning model using adaptive learning techniques to predict air pollution levels.",
         "Implemented deep learning models with TensorFlow/Keras to optimize energy consumption predictions for construction management applications."
       ]
     },
     {
-      role: "Graduate Teaching Assistant",
+      role: "Graduate Research and Teaching Assistant",
       company: "Virginia Tech",
       companylogo: require("./assets/images/vtl.png"), // Replace with the correct Virginia Tech logo
       date: "Jan 2024 – Dec 2024",
-      desc: "Assisted in teaching undergraduate-level courses in Computer Science, specializing in Data Structures and Algorithms.",
+      desc: "Implemented LTI 1.3 and developed additional features for e-learning platforms like Canvas and WebCAT, designing scalable backend models and APIs using Node.js, MariaDB, and Docker to enhance tool integration and data processing efficiency, advised by Dr. Stephen Edwards.",
       descBullets: [
-        "Conducted lab sessions to reinforce theoretical concepts through hands-on programming exercises.",
-        "Provided one-on-one support to students, assisting with debugging, algorithm optimization, and best coding practices."
+        "Assisted in teaching undergraduate-level courses in Computer Science, specializing in Data Structures and Algorithms."
       ]
     },
     {
@@ -193,17 +200,28 @@ const workExperiences = {
       ]
     },
     {
-      role: "Mobile and Web Application Developer",
-      company: "Skybase Innovations",
+      role: "Mobile Application Developer",
+      company: "Skybase Innovations – Pokhara, Nepal",
       companylogo: require("./assets/images/sky.png"), 
-      date: "Jan 2021 – June 2023",
-      desc: "Developed and maintained web and mobile applications with high performance and scalability.",
+      date: "Nov 2021 – June 2023",
+      desc: "Developed and deployed high-performance cross-platform mobile apps using Flutter and Dart, achieving over 10,000+ downloads on Google Play and App Store.",
       descBullets: [
-        "Built cross-platform mobile applications using Flutter and Dart, integrating RESTful APIs for real-time data synchronization.",
-        "Developed dynamic, responsive web applications with modern front-end technologies.",
-        "Ensured high performance, scalability, and seamless user experience across platforms."
+        "Integrated RESTful APIs, Firebase, and third-party libraries to ensure seamless data connectivity, enhancing app functionality, performance, and user experience.",
+        "Collaborated in Agile teams, delivering 10+ apps with clean code and efficient state management.",
+        "Designed responsive UI/UX with Flutter widgets, enhancing user engagement by 20%."
       ]
-    }
+    },
+    {
+      role: "Front-end Developer",
+      company: "Skybase Innovations – Pokhara, Nepal",
+      companylogo: require("./assets/images/sky.png"), 
+      date: "Jan 2021 – Nov 2021",
+      desc: "Built dynamic, responsive web applications using modern front-end technologies and frameworks, focusing on performance, scalability, and seamless user experiences.",
+      descBullets: [
+        "Collaborated with UI/UX designers to refine user flows and interfaces, ensuring intuitive and visually appealing experiences that enhanced user engagement.",
+        "Developed and optimized front-end components to improve load times and responsiveness, leading to better user retention."
+      ]
+    }    
   ]
 };
 
@@ -220,109 +238,131 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  projects: [
+  sections: [
     {
-      image: require("./assets/images/mds.jpeg"), // Replace with actual image path
-      projectName: "Rolling CNN+LSTM Model for Air Pollution Forecasting",
-      projectDesc: "Developed a CNN+LSTM model for real-time air pollution forecasting, implementing data preprocessing and sequential modeling.",
-      footerLink: [
+      sectionTitle: "Software Engineering Projects",
+      projects: [
         {
-          name: "View on Google Colab",
-          url: "https://colab.research.google.com/drive/128IYIpcH3tYtzRxzB8m4e-Faa38IA-Rg?authuser=1"
+          image: require("./assets/images/see.webp"), // Replace with actual image path
+          projectName: "Help for SEE",
+          projectDesc: "Developed an exam preparation app with study materials and mock tests for entrance exams.",
+          footerLink: [
+            {
+              name: "View on Google Play",
+              url: "https://play.google.com/store/apps/details?id=com.helpforsee.app"
+            }
+          ]
+        },
+        {
+          image: require("./assets/images/aayo.png"), // Replace with actual image path
+          projectName: "Aayo - Ride Sharing App",
+          projectDesc: "A ride-sharing application to manage transportation issues in Pokhara Valley.",
+          footerLink: [
+            {
+              name: "View on Google Play",
+              url: "https://play.google.com/store/apps/details?id=app.aayo.ride&pcampaignid=web_share"
+            }
+          ]
+        },
+        {
+          image: require("./assets/images/bhok.webp"), // Replace with actual image path
+          projectName: "Bhoklayo",
+          projectDesc: "A food delivery application for Pokhara Valley.",
+          footerLink: [
+            {
+              name: "View on Google Play",
+              url: "https://play.google.com/store/apps/details?id=com.bhoklayo.android"
+            }
+          ]
+        },
+        {
+          image: require("./assets/images/ghar.png"), // Replace with actual image path
+          projectName: "Ghardurbar",
+          projectDesc: "A platform for home inspections, managed by engineers, architects, and realtors.",
+          footerLink: [
+            {
+              name: "Visit Website",
+              url: "https://ghardurbar.com"
+            }
+          ]
+        },
+        {
+          image: require("./assets/images/pch.png"), // Replace with actual image path
+          projectName: "Paschimanchal Community Hospital",
+          projectDesc: "Website for Paschimanchal Community Hospital with an online appointment booking feature.",
+          footerLink: [
+            {
+              name: "Visit Website",
+              url: "https://pch.com.np/"
+            }
+          ]
         }
       ]
     },
     {
-      image: require("./assets/images/cnn.jpeg"), // Replace with actual image path
-      projectName: "Gamified Visualization of Multidimensional Scaling",
-      projectDesc: "Developed an interactive MDS visualization tool to help users explore high-dimensional data.",
-      footerLink: [
+      sectionTitle: "Data Science Projects",
+      projects: [
         {
-          name: "View on Observable",
-          url: "https://observablehq.com/d/9f216ce4f75a6528"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/crop.png"), // Replace with actual image path
-      projectName: "Crop Recommendation Dashboard",
-      projectDesc: "Built an intelligent crop recommendation dashboard using KNN.",
-      footerLink: [
+          image: require("./assets/images/mds.jpeg"), // Replace with actual image path
+          projectName: "Rolling CNN+LSTM Model for Air Pollution Forecasting",
+          projectDesc: "Developed a CNN+LSTM model for real-time air pollution forecasting, implementing data preprocessing and sequential modeling.",
+          footerLink: [
+            {
+              name: "View on Google Colab",
+              url: "https://colab.research.google.com/drive/128IYIpcH3tYtzRxzB8m4e-Faa38IA-Rg?authuser=1"
+            }
+          ]
+        },
         {
-          name: "View on GitHub",
-          url: "https://github.com/Jharana1999/crop-recommendation-dashboard"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/credit.jpeg"), // Replace with actual image path
-      projectName: "Credit Card Fraud Detection",
-      projectDesc: "Developed a fraud detection model using SMOTE and SHAP on imbalanced datasets.",
-      footerLink: [
+          image: require("./assets/images/cnn.jpeg"), // Replace with actual image path
+          projectName: "Gamified Visualization of Multidimensional Scaling",
+          projectDesc: "Developed an interactive MDS visualization tool to help users explore high-dimensional data.",
+          footerLink: [
+            {
+              name: "View on Observable",
+              url: "https://observablehq.com/d/9f216ce4f75a6528"
+            }
+          ]
+        },
         {
-          name: "View on GitHub",
-          url: "https://github.com/Jharana1999/CreditCardFraud"
-        }
-      ]
-    },
-    // {
-    //   image: require("./assets/images/job_analysis.png"), // Replace with actual image path
-    //   projectName: "Job Posting Analysis",
-    //   projectDesc: "Created SQL queries to analyze job postings, skills demand, and salaries.",
-    //   footerLink: [
-    //     {
-    //       name: "View on GitHub",
-    //       url: "https://github.com/Jharana1999/Sql_Project"
-    //     }
-    //   ]
-    // },
-    {
-      image: require("./assets/images/see.webp"), // Replace with actual image path
-      projectName: "Help for SEE",
-      projectDesc: "Developed an exam preparation app with study materials and mock tests for entrance exams.",
-      footerLink: [
+          image: require("./assets/images/crop.png"), // Replace with actual image path
+          projectName: "Crop Recommendation Dashboard",
+          projectDesc: "Built an intelligent crop recommendation dashboard using KNN.",
+          footerLink: [
+            {
+              name: "View on GitHub",
+              url: "https://github.com/Jharana1999/crop-recommendation-dashboard"
+            }
+          ]
+        },
         {
-          name: "View on Google Play",
-          url: "https://play.google.com/store/apps/details?id=com.helpforsee.app"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/aayo.png"), // Replace with actual image path
-      projectName: "Aayo - Ride Sharing App",
-      projectDesc: "A ride-sharing application to manage transportation issues in Pokhara Valley.",
-      footerLink: [
+          image: require("./assets/images/credit.jpeg"), // Replace with actual image path
+          projectName: "Credit Card Fraud Detection",
+          projectDesc: "Developed a fraud detection model using SMOTE and SHAP on imbalanced datasets.",
+          footerLink: [
+            {
+              name: "View on GitHub",
+              url: "https://github.com/Jharana1999/CreditCardFraud"
+            }
+          ]
+        },
         {
-          name: "View on Google Play",
-          url: "https://play.google.com/store/apps/details?id=app.aayo.ride&pcampaignid=web_share"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/bhok.webp"), // Replace with actual image path
-      projectName: "Bhoklayo",
-      projectDesc: "A food delivery application for Pokhara Valley.",
-      footerLink: [
-        {
-          name: "View on Google Play",
-          url: "https://play.google.com/store/apps/details?id=com.bhoklayo.android"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/ghar.png"), // Replace with actual image path
-      projectName: "Ghardurbar",
-      projectDesc: "A platform for home inspections, managed by engineers, architects, and realtors.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://ghardurbar.com"
+          image: require("./assets/images/floor.png"), // Replace with actual image path
+          projectName: "Floor Plan Visualization with Interactive Chart",
+          projectDesc: "Developed an interactive visualization overlaying sensor data on a floor plan, enabling real-time data insights, including predicted temperature and alerts for abnormal attributes.",
+          footerLink: [
+            {
+              name: "View on Observable",
+              url: "https://observablehq.com/d/d4d6b33fe1a43f68"
+            }
+          ]
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 
 // Achievement Section
