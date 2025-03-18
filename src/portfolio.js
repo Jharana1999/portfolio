@@ -128,7 +128,7 @@ const educationInfo = {
     {
       schoolName: "Pokhara University",
       logo: require("./assets/images/pkr.png"),
-      subHeader: "Bachelor of Computer Information System(Java)",
+      subHeader: "Bachelor of Computer Information System(IT)",
       duration: "Sept 2017 - Aug 2022",
       desc: "Dean's List and University Topper",
       descBullets: [
