@@ -254,17 +254,6 @@ const bigProjects = {
           ]
         },
         {
-          image: require("./assets/images/aayo.png"), // Replace with actual image path
-          projectName: "Aayo - Ride Sharing App",
-          projectDesc: "A ride-sharing application to manage transportation issues in Pokhara Valley.",
-          footerLink: [
-            {
-              name: "View on Google Play",
-              url: "https://play.google.com/store/apps/details?id=app.aayo.ride&pcampaignid=web_share"
-            }
-          ]
-        },
-        {
           image: require("./assets/images/bhok.webp"), // Replace with actual image path
           projectName: "Bhoklayo",
           projectDesc: "A food delivery application for Pokhara Valley.",
@@ -272,6 +261,17 @@ const bigProjects = {
             {
               name: "View on Google Play",
               url: "https://play.google.com/store/apps/details?id=com.bhoklayo.android"
+            }
+          ]
+        },
+        {
+          image: require("./assets/images/aayo.png"), // Replace with actual image path
+          projectName: "Aayo - Ride Sharing App",
+          projectDesc: "A ride-sharing application to manage transportation issues in Pokhara Valley.",
+          footerLink: [
+            {
+              name: "View on App Store",
+              url: "https://apps.apple.com/np/app/aayo-user/id1630423639?platform=iphone"
             }
           ]
         },
