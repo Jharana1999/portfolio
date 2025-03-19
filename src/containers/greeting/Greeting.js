@@ -25,7 +25,6 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
                 className={
@@ -47,14 +46,10 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
+            <img
+              alt="man sitting on table"
+              src={require("../../assets/images/greet.png")}
+            />
           </div>
         </div>
       </div>

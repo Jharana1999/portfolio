@@ -48,12 +48,12 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Data-Driven Full Stack Developer & Analyst Exploring Cutting-Edge Tech Stacks",
   skills: [
-    emoji("⚡ Full Stack Development – Building interactive, high-performance web & mobile applications."),
+    emoji("Full Stack Development – Building interactive, high-performance web & mobile applications."),
     emoji(
-      "⚡ Data Science & Machine Learning – Applying ML models to uncover patterns, make data-driven predictions, and enhance decision-making. "
+      "Data Science & Machine Learning – Applying ML models to uncover patterns, make data-driven predictions, and enhance decision-making. "
     ),
     emoji(
-      "⚡ Cloud & Third-Party Integrations – Deploying solutions with AWS, Firebase."
+      "Cloud & Third-Party Integrations – Deploying solutions with AWS, Firebase."
     )
   ],
 
