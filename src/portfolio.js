@@ -23,9 +23,9 @@ const greeting = {
   username: "Jharana Sapkota",
   title: "Hi all, I'm Jharana",
   subTitle:
-  "A passionate Software Engineer & Data Science Enthusiast with experience in building scalable Web & Mobile applications, and applying Machine Learning & Data Analytics to extract insights. With expertise in both, I bridge the gap between engineering efficiency and data-driven decision-making.",
+  "A passionate Software Engineer experienced in developing scalable Web & Mobile applications, proficient in frontend and backend technologies, with a keen interest in integrating Artificial Intelligence(AI) and Machine Learning solutions.",
   resumeLink:
-    "https://drive.google.com/file/d/16kLvzpKBeCim95sLcinydyhJ1Ks0cfKQ/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1n_qiO0PrU4h20vcPA-bObYhEeZmPBAjZ/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,15 +46,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Data-Driven Full Stack Developer & Analyst Exploring Cutting-Edge Tech Stacks",
+  subTitle: "Full Stack Developer Building Scalable and Interactive Applications",
   skills: [
-    emoji("Full Stack Development – Building interactive, high-performance web & mobile applications."),
-    emoji(
-      "Data Science & Machine Learning – Applying ML models to uncover patterns, make data-driven predictions, and enhance decision-making. "
-    ),
-    emoji(
-      "Cloud & Third-Party Integrations – Deploying solutions with AWS, Firebase."
-    )
+    emoji("⚡ Full Stack Development – Building interactive, high-performance web & mobile applications."),
+    emoji("⚡ Cloud Integrations – Developing cloud-native solutions and deploying applications on AWS and Firebase."),
+    emoji("⚡ API Development & System Integration – Designing robust REST APIs and backend services.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -167,45 +163,25 @@ const workExperiences = {
   display: true, // Set it to true to show the Work Experience section
   experience: [
     {
-      role: "ML Researcher / GRA",
-      company: "Virginia Tech",
-      companylogo: require("./assets/images/vtl.png"), // Replace with the correct Virginia Tech logo
-      date: "Dec 2024 – Present",
-      desc: "Conducting research on time-series forecasting for environmental monitoring, developing ML models for air pollution prediction and energy optimization, advised by Dr.Zhang Ruichuan.",
-      descBullets: [
-        "Developed a machine learning model using adaptive learning techniques to predict air pollution levels.",
-        "Implemented deep learning models with TensorFlow/Keras to optimize energy consumption predictions for construction management applications."
-      ]
-    },
-    {
       role: "Graduate Research and Teaching Assistant",
       company: "Virginia Tech",
       companylogo: require("./assets/images/vtl.png"), // Replace with the correct Virginia Tech logo
-      date: "Jan 2024 – Dec 2024",
-      desc: "Implemented LTI 1.3 and developed additional features for e-learning platforms like Canvas and WebCAT, designing scalable backend models and APIs using Node.js, MariaDB, and Docker to enhance tool integration and data processing efficiency, advised by Dr. Stephen Edwards.",
+      date: "Jan 2024 – Present",
+      desc: "",
       descBullets: [
+        "Applying machine learning and deep learning models in the construction and civil engineering domain to predict environmental factors such as air pollutant levels in construction environments, indoor environment, etc.",
+        "Implemented LTI 1.3 and developed additional features for e-learning platforms like Canvas and WebCAT, designing scalable backend models and APIs using Node.js, MariaDB, and Docker to enhance tool integration and data processing efficiency",
         "Assisted in teaching undergraduate-level courses in Computer Science, specializing in Data Structures and Algorithms."
       ]
     },
     {
-      role: "Data Analyst",
-      company: "Baizani",
-      companylogo: require("./assets/images/bai.png"), 
-      date: "June 2023 – Dec 2023",
-      desc: "Developed predictive models and automated dashboards for business intelligence and customer retention.",
-      descBullets: [
-        "Built automated dashboards to track key KPIs, reducing reporting time by 40%.",
-        "Optimized e-commerce operations by analyzing shopping patterns and customer feedback.",
-        "Developed predictive models to forecast sales trends and customer churn using machine learning techniques, improving decision-making and retention by 20%."
-      ]
-    },
-    {
       role: "Mobile Application Developer",
-      company: "Skybase Innovations – Pokhara, Nepal",
+      company: "Skybase Innovations",
       companylogo: require("./assets/images/sky.png"), 
       date: "Nov 2021 – June 2023",
-      desc: "Developed and deployed high-performance cross-platform mobile apps using Flutter and Dart, achieving over 10,000+ downloads on Google Play and App Store.",
+      desc: "",
       descBullets: [
+        "Developed and deployed high-performance cross-platform mobile apps using Flutter and Dart, achieving over 10,000+ downloads on Google Play and App Store.",
         "Integrated RESTful APIs, Firebase, and third-party libraries to ensure seamless data connectivity, enhancing app functionality, performance, and user experience.",
         "Collaborated in Agile teams, delivering 10+ apps with clean code and efficient state management.",
         "Designed responsive UI/UX with Flutter widgets, enhancing user engagement by 20%."
@@ -213,11 +189,12 @@ const workExperiences = {
     },
     {
       role: "Front-end Developer",
-      company: "Skybase Innovations – Pokhara, Nepal",
+      company: "Skybase Innovations",
       companylogo: require("./assets/images/sky.png"), 
       date: "Jan 2021 – Nov 2021",
-      desc: "Built dynamic, responsive web applications using modern front-end technologies and frameworks, focusing on performance, scalability, and seamless user experiences.",
+      desc: "",
       descBullets: [
+        "Built dynamic, responsive web applications using modern front-end technologies and frameworks, focusing on performance, scalability, and seamless user experiences.",
         "Collaborated with UI/UX designers to refine user flows and interfaces, ensuring intuitive and visually appealing experiences that enhanced user engagement.",
         "Developed and optimized front-end components to improve load times and responsiveness, leading to better user retention."
       ]
@@ -240,7 +217,7 @@ const bigProjects = {
   title: "Projects",
   sections: [
     {
-      sectionTitle: "Software Engineering Projects",
+      sectionTitle: "",
       projects: [
         {
           image: require("./assets/images/see.webp"), // Replace with actual image path
@@ -296,22 +273,6 @@ const bigProjects = {
               url: "https://pch.com.np/"
             }
           ]
-        }
-      ]
-    },
-    {
-      sectionTitle: "Data Science Projects",
-      projects: [
-        {
-          image: require("./assets/images/mds.jpeg"), // Replace with actual image path
-          projectName: "Rolling CNN+LSTM Model for Air Pollution Forecasting",
-          projectDesc: "Developed a CNN+LSTM model for real-time air pollution forecasting, implementing data preprocessing and sequential modeling.",
-          footerLink: [
-            {
-              name: "View on Google Colab",
-              url: "https://colab.research.google.com/drive/128IYIpcH3tYtzRxzB8m4e-Faa38IA-Rg?authuser=1"
-            }
-          ]
         },
         {
           image: require("./assets/images/cnn.jpeg"), // Replace with actual image path
@@ -324,6 +285,29 @@ const bigProjects = {
             }
           ]
         },
+        {
+          image: require("./assets/images/floor.png"), // Replace with actual image path
+          projectName: "Floor Plan Visualization with Interactive Chart",
+          projectDesc: "Developed an interactive visualization overlaying sensor data on a floor plan, enabling real-time data insights, including predicted temperature and alerts for abnormal attributes.",
+          footerLink: [
+            {
+              name: "View on Observable",
+              url: "https://observablehq.com/d/d4d6b33fe1a43f68"
+            }
+          ]
+        },
+        {
+          image: require("./assets/images/mds.jpeg"), // Replace with actual image path
+          projectName: "Rolling CNN+LSTM Model for Air Pollution Forecasting",
+          projectDesc: "Developed a CNN+LSTM model for real-time air pollution forecasting, implementing data preprocessing and sequential modeling.",
+          footerLink: [
+            {
+              name: "View on Google Colab",
+              url: "https://colab.research.google.com/drive/128IYIpcH3tYtzRxzB8m4e-Faa38IA-Rg?authuser=1"
+            }
+          ]
+        },
+        
         {
           image: require("./assets/images/crop.png"), // Replace with actual image path
           projectName: "Crop Recommendation Dashboard",
@@ -345,20 +329,9 @@ const bigProjects = {
               url: "https://github.com/Jharana1999/CreditCardFraud"
             }
           ]
-        },
-        {
-          image: require("./assets/images/floor.png"), // Replace with actual image path
-          projectName: "Floor Plan Visualization with Interactive Chart",
-          projectDesc: "Developed an interactive visualization overlaying sensor data on a floor plan, enabling real-time data insights, including predicted temperature and alerts for abnormal attributes.",
-          footerLink: [
-            {
-              name: "View on Observable",
-              url: "https://observablehq.com/d/d4d6b33fe1a43f68"
-            }
-          ]
         }
       ]
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };

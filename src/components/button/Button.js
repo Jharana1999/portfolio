@@ -10,7 +10,7 @@ export default function Button({ text, className, href, newTab, download }) {
           href={href}
           target={newTab ? "_blank" : "_self"}
           rel={newTab ? "noopener noreferrer" : ""}
-          download={download ? "Resume.pdf" : undefined}
+          download={download ? "Jharana_Sapkota_Developer.pdf" : undefined}
         >
           {text}
         </a>
