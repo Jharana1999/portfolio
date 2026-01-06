@@ -183,7 +183,7 @@ const workExperiences = {
         "Integrated REST APIs, OAuth authentication, and payment gateways (Khalti, eSewa), processing $50,000+ in monthly transactions.",
         "Implemented real-time features including push notifications, GPS tracking, and live messaging, increasing user engagement by 30%.",
         "Collaborated in Agile teams with two-week sprints, contributing to code reviews, testing, and maintaining 90% code coverage.",
-        "Optimized app performance and user experience through efficient state management, reducing crash rates by 25% and improving app store ratings.",
+        "Optimized app performance and user experience through efficient state management, reducing crash rates by 15% and improving app store ratings.",
       ],
     },
     {
@@ -195,7 +195,7 @@ const workExperiences = {
       descBullets: [
         "Built 8+ responsive web applications using React.js, JavaScript, HTML5, and CSS3 with a focus on usability and performance.",
         "Collaborated with UI/UX designers to implement pixel-perfect interfaces while applying SEO best practices and accessibility standards (WCAG 2.1).",
-        "Implemented efficient state management solutions and optimized component rendering, improving page load times by 40%.",
+        "Implemented efficient state management solutions and optimized component rendering, improving page load times by 15%.",
         "Ensured cross-browser compatibility and responsive design across multiple devices, achieving consistent user experience on desktop, tablet, and mobile platforms.",
       ],
     },
