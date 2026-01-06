@@ -1,10 +1,7 @@
 import React from "react";
 import "./Footer.scss";
-import {Fade} from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export default function Footer() {
-  return (
-    <Fade bottom duration={1000} distance="5px">
-    </Fade>
-  );
+  return <Fade bottom duration={1000} distance="5px"></Fade>;
 }

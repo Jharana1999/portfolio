@@ -49,12 +49,12 @@
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 .greeting-image-div > img {
-  max-width: 90%;
+  max-width: 80%;
   height: auto;
   float: right;
 }
@@ -97,7 +97,7 @@
     font-size: 50px;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media (max-width: 768px) {
@@ -109,7 +109,7 @@
     text-align: center;
   }
   .greeting-text-p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: normal;
     text-align: center;
   }

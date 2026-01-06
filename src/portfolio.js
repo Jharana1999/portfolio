@@ -15,7 +15,7 @@ const greeting = {
   username: "Jharana Sapkota",
   title: "Hi all, I'm Jharana",
   subTitle:
-    "A passionate Software Engineer with experience in building production systems used by 10,000+ users. Specialized in full-stack development, cloud architecture, and scalable application design. Proven track record delivering cross-platform mobile apps, web applications, and desktop tools that reduce operational time by 20-40%.",
+    "A passionate Software Engineer with proven experience building production systems serving 10,000+ users. Specialized in full-stack development, cloud architecture, and scalable application design. Demonstrated success delivering cross-platform mobile apps, web applications, and desktop tools that reduce operational time by 20-40%.",
   resumeLink:
     "https://drive.google.com/file/d/1n_qiO0PrU4h20vcPA-bObYhEeZmPBAjZ/view?usp=drive_link",
   displayGreeting: true,
