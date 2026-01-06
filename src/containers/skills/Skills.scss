@@ -1,13 +1,17 @@
 @import "../../_globalColor";
 
+#skills.main {
+  margin-top: -1rem;
+}
+
 .skills-main-div {
   display: flex;
   width: 100%;
   overflow: hidden;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: nowrap; 
-  gap: 2rem; 
+  flex-wrap: nowrap;
+  gap: 2rem;
 }
 
 /* Left column: Title and Icons */

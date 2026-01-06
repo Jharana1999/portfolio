@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -7,25 +7,20 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
-  blogSection,
-  talkSection,
   achievementSection,
+  publicationsSection,
   resumeSection,
-  bigProjects
+  bigProjects,
 } from "../../portfolio";
 
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
+  const viewPublications = publicationsSection.display;
   const viewResume = resumeSection.display;
   const viewProjects = bigProjects.display;
-
 
   return (
     <Headroom>
@@ -39,7 +34,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: "white" }}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
@@ -54,11 +49,6 @@ function Header() {
               <a href="#experience">Experiences</a>
             </li>
           )}
-          {viewOpenSource && (
-            <li>
-              <a href="#opensource">Pros</a>
-            </li>
-          )}
           {viewProjects && (
             <li>
               <a href="#projects">Projects</a>
@@ -70,14 +60,9 @@ function Header() {
               <a href="#achievements">Certifications</a>
             </li>
           )}
-          {viewBlog && (
+          {viewPublications && (
             <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )}
-          {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
+              <a href="#publications">Publications</a>
             </li>
           )}
           {viewResume && (

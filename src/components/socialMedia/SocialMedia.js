@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
+import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -8,18 +8,6 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
-      {socialMediaLinks.github ? (
-        <a
-          href={socialMediaLinks.github}
-          className="icon-button github"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-github"></i>
-          <span></span>
-        </a>
-      ) : null}
-
       {socialMediaLinks.linkedin ? (
         <a
           href={socialMediaLinks.linkedin}
@@ -40,6 +28,30 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fas fa-envelope"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.googleScholar ? (
+        <a
+          href={socialMediaLinks.googleScholar}
+          className="icon-button google-scholar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-graduation-cap"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.github ? (
+        <a
+          href={socialMediaLinks.github}
+          className="icon-button github"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github"></i>
           <span></span>
         </a>
       ) : null}

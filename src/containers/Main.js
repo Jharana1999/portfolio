@@ -4,17 +4,13 @@ import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
-import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
-import Blogs from "./blogs/Blogs";
+import Publications from "./publications/Publications";
+import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
-import Talks from "./talks/Talks";
-import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
-import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
@@ -25,7 +21,7 @@ const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", () => {
     const savedTheme = localStorage.getItem("isDark");
-    return savedTheme !== null ? JSON.parse(savedTheme) : true; // Default is dark mode
+    return savedTheme !== null ? JSON.parse(savedTheme) : true;
   });
   
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
@@ -60,14 +56,10 @@ const Main = () => {
             <StackProgress />
             <Education />
             <WorkExperience />
-            <Projects />
             <StartupProject />
             <Achievement />
-            <Blogs />
-            <Talks />
-            <Twitter />
-            <Podcast />
-            <Profile />
+            <Publications />
+            <Contact />
             <Footer />
             <ScrollToTopButton />
           </>
