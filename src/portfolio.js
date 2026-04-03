@@ -158,11 +158,25 @@ const techStack = {
 const workExperiences = {
   display: true,
   experience: [
+     {
+      role: "Web Developer",
+      company: "College of Charleston",
+      companylogo: require("./assets/images/cofc.png"),
+      date: "Mar 2025 – Present",
+      desc: "",
+      descBullets: [
+       "Develop and maintain web applications and services using HTML, CSS, JavaScript, and Python, supporting academic and administrative functions across the institution.",
+      "Assist in integrating enterprise systems and third-party services via REST APIs and JSON-based web services.",
+      "Provide technical support for web-related issues through ITSM ticketing systems, troubleshooting and resolving frontend and backend problems.",
+      "Maintain and update LAMP-based and WordPress sites, including content updates, plugin management, and basic performance optimizations.",
+      "Work with Linux-based servers using CLI to monitor services, apply patches, and support deployment of web applications and scripts.",
+      ],
+    },
     {
       role: "Software Engineer (Graduate Research Assistant)",
       company: "Virginia Tech",
       companylogo: require("./assets/images/vtl.png"),
-      date: "Jan 2024 – Present",
+      date: "Jan 2024 – Feb 2025",
       desc: "",
       descBullets: [
         "Built and deployed a desktop application using Electron and React for drone flight planning and mission visualization, used by 50+ pilots and reducing planning time by 40%.",
@@ -426,19 +440,11 @@ const publicationsSection = {
       footerLink: [],
     },
     {
-      title:
-        "Multi-Head Temporal Attention Deep Learning for Multivariate Indoor Air Quality Forecasting",
-      authors: "Ruichuan Zhang, Jharana Sapkota",
-      journal: "Journal of Computing in Civil Engineering",
-      status: "Accepted",
-      footerLink: [],
-    },
-    {
       title: "Categorizing and Comparing Students' Interactions in eTextbooks",
       authors:
         "Jharana Sapkota, Mohammed Farghally, Mostafa Mohammed, Cliff Shaffer",
       journal: "Frontiers in Education Conference 2025",
-      status: "Accepted",
+      status: "Published",
       footerLink: [],
     },
     {
@@ -446,6 +452,14 @@ const publicationsSection = {
       authors:
         "Akshay Bansal, Cam Kormyolo, Mahdis Tajdari, Jharana Sapkota, Mohammed Farghally",
       journal: "Frontiers in Education Conference 2025",
+      status: "Published",
+      footerLink: [],
+    },
+    {
+      title:
+        "Multi-Head Temporal Attention Deep Learning for Multivariate Indoor Air Quality Forecasting",
+      authors: "Ruichuan Zhang, Jharana Sapkota",
+      journal: "Journal of Computing in Civil Engineering",
       status: "Accepted",
       footerLink: [],
     },
