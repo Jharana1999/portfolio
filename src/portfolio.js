@@ -55,6 +55,10 @@ const skillsSection = {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
     },
+     {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php",
+    },
     {
       skillName: "java",
       fontAwesomeClassname: "fab fa-java",
@@ -162,10 +166,10 @@ const workExperiences = {
       role: "Web Developer",
       company: "College of Charleston",
       companylogo: require("./assets/images/cofc.png"),
-      date: "Mar 2025 – Present",
+      date: "Mar 2026 – Present",
       desc: "",
       descBullets: [
-       "Develop and maintain web applications and services using HTML, CSS, JavaScript, and Python, supporting academic and administrative functions across the institution.",
+       "Develop and maintain web applications and services using HTML, CSS, JavaScript, PHP and Python, supporting academic and administrative functions across the institution.",
       "Assist in integrating enterprise systems and third-party services via REST APIs and JSON-based web services.",
       "Provide technical support for web-related issues through ITSM ticketing systems, troubleshooting and resolving frontend and backend problems.",
       "Maintain and update LAMP-based and WordPress sites, including content updates, plugin management, and basic performance optimizations.",
