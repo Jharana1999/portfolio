@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.36643138.css",
-    "main.js": "/static/js/main.2eb2d873.js",
+    "main.js": "/static/js/main.301ce0fb.js",
     "static/media/quadra.png": "/static/media/quadra.ed4d093041ba747d38bb.png",
     "static/media/greet.png": "/static/media/greet.bb27aafe538c439e3a8c.png",
     "static/media/floor.png": "/static/media/floor.4e9022314a2993531ecd.png",
@@ -14,7 +14,7 @@
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/cnn.jpeg": "/static/media/cnn.93fa61708634f7af0971.jpeg",
     "static/media/cofc.png": "/static/media/cofc.115c03ed81e876f10b68.png",
-    "static/media/Jharana_Sapkota_Resume.pdf": "/static/media/Jharana_Sapkota_Resume.903b3ad6e3e66175c579.pdf",
+    "static/media/Jharana_Sapkota_Resume.pdf": "/static/media/Jharana_Sapkota_Resume.cf58bb2e665bbc42b5a5.pdf",
     "static/media/c8.jpg": "/static/media/c8.8838da12d5d3f47d258b.jpg",
     "static/media/c7.jpg": "/static/media/c7.1b0b6c3c784a0d525b92.jpg",
     "static/media/pch.png": "/static/media/pch.75ba6a55e4c1fd1c0940.png",
@@ -30,10 +30,10 @@
     "static/media/bhok.webp": "/static/media/bhok.10989ad9081e8239975f.webp",
     "index.html": "/index.html",
     "main.36643138.css.map": "/static/css/main.36643138.css.map",
-    "main.2eb2d873.js.map": "/static/js/main.2eb2d873.js.map"
+    "main.301ce0fb.js.map": "/static/js/main.301ce0fb.js.map"
   },
   "entrypoints": [
     "static/css/main.36643138.css",
-    "static/js/main.2eb2d873.js"
+    "static/js/main.301ce0fb.js"
   ]
 }
