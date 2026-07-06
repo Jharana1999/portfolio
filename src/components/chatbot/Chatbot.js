@@ -68,7 +68,7 @@ const Chatbot = () => {
 
     // Location
     if (message.match(/\b(location|where|based|live|living|city|state)\b/)) {
-      return `I am currently located in Virginia, but I'm open to relocation for the right opportunity.${contactFooter}`;
+      return `I am currently located in South Carolina, USA, but I'm open to relocation for the right opportunity.${contactFooter}`;
     }
 
     // Visa Status
@@ -192,7 +192,7 @@ const Chatbot = () => {
     }, 500);
   };
 
-  const handleKeyPress = (e) => {
+  const handleKeyDown = (e) => {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       handleSend();
@@ -308,7 +308,7 @@ const Chatbot = () => {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              onKeyPress={handleKeyPress}
+              onKeyDown={handleKeyDown}
               placeholder="Ask me anything..."
               aria-label="Chat input"
             />

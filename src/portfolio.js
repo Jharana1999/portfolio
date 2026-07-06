@@ -80,12 +80,20 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-docker",
     },
     {
-      skillName: "sql",
+      skillName: "PostgreSQL",
       fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws",
+    },
+    {
+      skillName: "FastAPI",
+      fontAwesomeClassname: "fas fa-bolt",
+    },
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular",
     },
     {
       skillName: "tableau",
@@ -99,7 +107,6 @@ const skillsSection = {
       skillName: "linux",
       fontAwesomeClassname: "fab fa-linux",
     },
-
     {
       skillName: "Electron",
       fontAwesomeClassname: "fas fa-desktop",
@@ -118,20 +125,20 @@ const educationInfo = {
     {
       schoolName: "Virginia Tech",
       logo: require("./assets/images/vtl.png"),
-      subHeader: "Master of Science in Computer Science",
+      subHeader: "Master of Science in Computer Science (Thesis Track)",
       duration: "Jan 2024 - Dec 2025",
-      desc: "Graduate Research Assistant",
+      desc: "Graduate Research Assistant | GPA: 3.95/4.0",
       descBullets: [
-        "Thesis: Categorizing and Comparing Student's interactions in eTextbook",
+        "Thesis: Categorizing and Comparing Students' Interactions in eTextbook",
         "Major Coursework: Software Engineering, Machine Learning, Big Data Engineering, Information Visualization",
       ],
     },
     {
       schoolName: "Pokhara University",
       logo: require("./assets/images/pkr.png"),
-      subHeader: "Bachelor of Computer Information System(IT)",
+      subHeader: "Bachelor of Computer Information Systems (IT)",
       duration: "Sept 2017 - Aug 2022",
-      desc: "Dean's List and Valedictorian",
+      desc: "Dean's List and Valedictorian | GPA: 3.88/4.0",
       descBullets: [
         "Capstone: Ikuzo- The Ride Sharing Application",
         "Major Coursework: Data Structures and Algorithms, Advanced Java, Operating Systems, Data Analysis and Modeling, Statistics",
@@ -156,7 +163,6 @@ const techStack = {
       progressPercentage: "60%",
     },
   ],
-  displayCodersrank: false,
 };
 
 const workExperiences = {
@@ -169,11 +175,10 @@ const workExperiences = {
       date: "Mar 2026 – Present",
       desc: "",
       descBullets: [
-       "Develop and maintain web applications and services using HTML, CSS, JavaScript, PHP and Python, supporting academic and administrative functions across the institution.",
-      "Assist in integrating enterprise systems and third-party services via REST APIs and JSON-based web services.",
-      "Provide technical support for web-related issues through ITSM ticketing systems, troubleshooting and resolving frontend and backend problems.",
-      "Maintain and update LAMP-based and WordPress sites, including content updates, plugin management, and basic performance optimizations.",
-      "Work with Linux-based servers using CLI to monitor services, apply patches, and support deployment of web applications and scripts.",
+        "Developed and maintained web applications using HTML, CSS, JavaScript, and PHP, supporting academic and administrative systems for 5,000+ users.",
+        "Integrated enterprise and third-party systems via REST APIs and JSON services, improving data flow efficiency by 25%.",
+        "Resolved frontend and backend issues using ServiceNow ITSM workflows, maintaining 95%+ SLA compliance.",
+        "Managed and optimized LAMP and WordPress sites, including plugins, content updates, and performance tuning.",
       ],
     },
     {
@@ -183,38 +188,25 @@ const workExperiences = {
       date: "Jan 2024 – Feb 2025",
       desc: "",
       descBullets: [
-        "Built and deployed a desktop application using Electron and React for drone flight planning and mission visualization, used by 50+ pilots and reducing planning time by 40%.",
-        "Extending the platform into a web-based application using FastAPI and JavaScript, adding interactive map-based interfaces and integrating a cloud-hosted risk-assessment service for standardized result generation.",
-        "Designed and implemented REST APIs, backed by MySQL and MongoDB, optimizing request handling and database queries to reduce API response times by 30%.",
-        "Wrote unit and integration tests for application modules and participated in peer code reviews to identify and fix defects early.",
-        "Mentored 350+ undergraduate students in Data Structures and Algorithms, supporting problem solving and algorithmic thinking in Python and Java.",
+        "Built and deployed a desktop application using Electron and React for drone flight planning and mission visualization, reducing planning time by 40%.",
+        "Extended the platform into a web-based application using FastAPI and JavaScript, adding interactive map-based interfaces and integrating a cloud-hosted risk-assessment service for standardized result generation.",
+        "Designed scalable backend systems with Python, REST APIs, MySQL, and MongoDB, integrating cloud-based risk computation services and improving API performance by 30%.",
+        "Containerized services and implemented CI/CD pipelines with testing and code reviews, improving deployment reliability.",
+        "Mentored 350+ undergraduate students in Data Structures and Algorithms, supporting problem solving and algorithmic thinking.",
       ],
     },
     {
-      role: "Mobile Application Developer",
+      role: "Software Engineer (Web & Mobile Applications)",
       company: "Skybase Innovations",
       companylogo: require("./assets/images/sky.png"),
-      date: "Nov 2021 – Jun 2023",
+      date: "Jan 2021 – Jun 2023",
       desc: "",
       descBullets: [
         "Developed and launched 5+ cross-platform mobile applications using Flutter and Java, supporting 10,000+ active users.",
-        "Integrated REST APIs, OAuth authentication, and payment gateways (Khalti, eSewa), processing $50,000+ in monthly transactions.",
+        "Integrated REST APIs, OAuth authentication, and payment gateways, processing $100,000+ in monthly transactions.",
         "Implemented real-time features including push notifications, GPS tracking, and live messaging, increasing user engagement by 30%.",
+        "Built responsive frontends using React.js, HTML5, CSS3, and JavaScript, ensuring cross-browser support and adherence to WCAG accessibility standards.",
         "Collaborated in Agile teams with two-week sprints, contributing to code reviews, testing, and maintaining 90% code coverage.",
-        "Optimized app performance and user experience through efficient state management, reducing crash rates by 15% and improving app store ratings.",
-      ],
-    },
-    {
-      role: "Frontend Developer",
-      company: "Skybase Innovations",
-      companylogo: require("./assets/images/sky.png"),
-      date: "Jan 2021 – Nov 2021",
-      desc: "",
-      descBullets: [
-        "Built 8+ responsive web applications using React.js, JavaScript, HTML5, and CSS3 with a focus on usability and performance.",
-        "Collaborated with UI/UX designers to implement pixel-perfect interfaces while applying SEO best practices and accessibility standards (WCAG 2.1).",
-        "Implemented efficient state management solutions and optimized component rendering, improving page load times by 15%.",
-        "Ensured cross-browser compatibility and responsive design across multiple devices, achieving consistent user experience on desktop, tablet, and mobile platforms.",
       ],
     },
   ],
@@ -228,9 +220,9 @@ const bigProjects = {
       projects: [
         {
           image: require("./assets/images/quadra.png"),
-          projectName: "QUADRA",
+          projectName: "QUADRA – Drone Flight Planning and Risk Assessment",
           projectDesc:
-            "Production drone planning platform (Electron, React, FastAPI, MySQL, MongoDB) for 50+ pilots, reducing planning time by 40% through geospatial visualization and automated risk scoring.",
+            "Drone planning platform (Electron, React, FastAPI, MySQL, MongoDB) combining geospatial visualization, automated population-risk scoring, and a cloud web interface. Optimized with multi-tier caching and LRU eviction for fast geospatial data retrieval.",
           footerLink: [
             {
               name: "Web Version (In Progress)",
@@ -239,16 +231,28 @@ const bigProjects = {
           ],
         },
         {
-          image: require("./assets/images/bhok.webp"),
-          projectName: "Bhoklayo",
+          projectName: "BioGraph Agent – Biomedical AI Research Platform",
           projectDesc:
-            "Food delivery platform (Flutter, Node.js) serving 1,000+ users with real-time order tracking and payment processing. Optimized backend reducing order processing time by 30%.",
+            "Chat-first drug discovery platform (Python, FastAPI, Angular) integrating biomedical APIs (Open Targets, UniProt, Ensembl, PubMed) with LLM orchestration via LangGraph and OpenAI. Uses Neo4j/Cypher for graph-based workflows with evidence scoring and citation-backed summaries.",
+          footerLink: [],
+        },
+        {
+          image: require("./assets/images/bhok.webp"),
+          projectName: "Bhoklayo – Food Delivery Application",
+          projectDesc:
+            "Food delivery platform (Flutter, Node.js) serving 1,000+ users with real-time order tracking and payment processing. Reduced order processing time by 30% through optimized backend architecture.",
           footerLink: [
             {
               name: "View on Google Play",
               url: "https://play.google.com/store/apps/details?id=com.bhoklayo.android",
             },
           ],
+        },
+        {
+          projectName: "ShaRaFlow – Drag-and-Drop Spark Workflow Builder",
+          projectDesc:
+            "Blockly-based visual programming interface (React, Node.js, Python) that translates drag-and-drop blocks into executable PySpark workflows, enabling non-technical users to design data pipelines.",
+          footerLink: [],
         },
         {
           image: require("./assets/images/aayo.png"),
@@ -441,7 +445,6 @@ const publicationsSection = {
       authors: "Ruichuan Zhang, Jharana Sapkota, Jenna Krall",
       journal: "Journal of Computing in Civil Engineering",
       status: "Published",
-      footerLink: [],
     },
     {
       title: "Categorizing and Comparing Students' Interactions in eTextbooks",
@@ -449,7 +452,6 @@ const publicationsSection = {
         "Jharana Sapkota, Mohammed Farghally, Mostafa Mohammed, Cliff Shaffer",
       journal: "Frontiers in Education Conference 2025",
       status: "Published",
-      footerLink: [],
     },
     {
       title: "Examining Geospatial Differences in the Gender Wage Gap in STEM",
@@ -457,7 +459,6 @@ const publicationsSection = {
         "Akshay Bansal, Cam Kormyolo, Mahdis Tajdari, Jharana Sapkota, Mohammed Farghally",
       journal: "Frontiers in Education Conference 2025",
       status: "Published",
-      footerLink: [],
     },
     {
       title:
@@ -465,28 +466,23 @@ const publicationsSection = {
       authors: "Ruichuan Zhang, Jharana Sapkota",
       journal: "Journal of Computing in Civil Engineering",
       status: "Accepted",
-      footerLink: [],
     },
   ],
   display: true,
 };
 
 const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
   display: true,
 };
 
 const contactInfo = {
   title: emoji("Contact Me"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Based in South Carolina, USA (Open to relocation). Discuss a project or just want to say hi? My inbox is open for all.",
   number: "5406050749",
   email_address: "jharanasapkota09@gmail.com",
   display: true,
 };
-
-const isHireable = true;
 
 export {
   illustration,
@@ -501,6 +497,5 @@ export {
   achievementSection,
   publicationsSection,
   contactInfo,
-  isHireable,
   resumeSection,
 };
